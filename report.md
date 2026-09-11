@@ -1,18 +1,21 @@
-Análise Preditiva e Fatores Determinantes no Desempenhos Escolar
+ANÁLISE PREDITIVA E FATORES DETERMINANTES NO DESEMPENHO ESCOLAR
 
 
-**Nome completo do Aluno 1, email do aluno 1**
+Letícia Soares de Paiva Lacerda, 1451552@pucminas.edu.br	
 
-**Nome completo do Aluno 2, email do aluno 2**
+Laura de Castro e Costa, 1674113@pucminas.edu.br	
 
-**Nome completo do Aluno 3, email do aluno 3**
+Leonardo Rodrigos dos Anjos Correa, 1412021@pucminas.edu.br
+
+Guilherme Maurício de Souza Neves, 721950@pucminas.edu.br
+
+Daví Duarte, 1659455@pucminas.edu.br
 
 ---
 
 Professores:
 
-** Prof. Nome do Prof 1 **
-** Prof. Nome do Prof 2 **
+Gabriel Barbosa da Fonseca
 
 ---
 
@@ -22,15 +25,21 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+_**Resumo**. 
+
+O objetivo é mensurar o impacto estatístico dos hábitos de estudo, frequência escolar e suporte socioeconômico sobre a nota final.
+A metodologia consiste no desenvolvimento de um pipeline robusto de Machine Learning em Python, utilizando algoritmos. Os resultados
+demonstram que a frequência escolar e a rotina de estudos são os preditores de maior peso direto, enquanto o fator socioeconômico atua
+como base catalisadora do rendimento. Além disso, os dados permitem converter os dados brutos em inteligência pedagógica, fornecendo
+aos gestores educacionais uma ferramente preditiva eficaz para intervenções preventivas contra o fracasso escola.
+
 
 ---
 
 
 ## Introdução
 
-A introdução deve apresentar de dois a quatro parágrafos de contextualização do trabalho. 
+
 
 ###    Contextualização
 
