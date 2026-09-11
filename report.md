@@ -39,6 +39,15 @@ aos gestores educacionais uma ferramente preditiva eficaz para intervenções pr
 
 ## Introdução
 
+		O cenário educacional enfrenta o desafio crônico de reverter o baixo rendimento acadêmico de forma proativa. Nesse sentido, as
+	instituições de ensino identificam as lacunas de aprendizados dos alunos só após a divulgação daa notas finais. Diante disso, o uso
+	da Ciências de dados surge como uma estratégia indispensável para transformar registros escolares em diagnósticos antecipados.
+		No entanto, mensurar com precisão o peso real de fatores comportamentais e sociais sobre a nota do estudante é um desafio complexo.
+	Variáveis como,(colocar depois) intereagem entre si e exige uma análise estatística rigorosa para identificar quais dessa dimensões 
+	realmente ditam o sucesso ou o fracasso acadêmico.
+		
+	
+
 
 
 ###    Contextualização
