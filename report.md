@@ -45,6 +45,9 @@ aos gestores educacionais uma ferramente preditiva eficaz para intervenções pr
 		No entanto, mensurar com precisão o peso real de fatores comportamentais e sociais sobre a nota do estudante é um desafio complexo.
 	Variáveis como,(colocar depois) intereagem entre si e exige uma análise estatística rigorosa para identificar quais dessa dimensões 
 	realmente ditam o sucesso ou o fracasso acadêmico.
+		Este trabalho tem como objetivo desenvolver um pipeline de Machine Learning capar de prever o desempenho dos estudantes e mapear
+	a relevância de cada fator determinate. Utilizando técnicas de pré-processamento automatizado e modelagem preditiva, o projeto busca
+	converter dados brutos em inteligência pedagógica fornecendo uma ferramenta prática para decisões preventivas na gestão escolar.`
 		
 	
 
