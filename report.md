@@ -106,7 +106,7 @@ específicos ou as razões para aprofundar em certos aspectos do software.
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
-# Público-alvo e Perfis
+# Público-alvo
 
 ## 1. Perfis de Usuários
 
