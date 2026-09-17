@@ -106,36 +106,35 @@ específicos ou as razões para aprofundar em certos aspectos do software.
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
+# Público-alvo e Perfis
 
+## 1. Perfis de Usuários
 
-##    Público alvo
-* Gestores Escolares (Diretores e Coordenadores): Usuários de nível estratégico e decisão hierárquica alta. Possuem familiaridade intermediária com tecnologia e utilizam painéis visuais para fundamentar decisões macro, planejar turmas de reforço e direcionar recursos.
-* Corpo Docente (Professores): Usuários operacionais na linha de frente da sala de aula. Possuem literacia digital variável e rotinas dinâmicas. Utilizam os insights rápidos do sistema para antecipar quedas de desempenho e apoiar sua autonomia pedagógica.
-* Equipe de Apoio (Orientadores e Psicólogos): Usuários de articulação mediadora. Utilizam os dados socioeconômicos e comportamentais para realizar intervenções psicossociais humanizadas com alunos e famílias.
-### 1. Perfis de Usuários
-* *Gestores Escolares:* Tomam decisões estratégicas de alocação de recursos com base em dashboards visuais.
-* *Corpo Docente:* Utiliza insights rápidos na linha de frente para antecipar quedas de desempenho.
-* *Equipe de Apoio:* Analisa dados socioeconômicos para realizar abordagens psicossociais humanizadas.
+* *Gestores Escolaares (Diretores e Coordenadores):* Focam na parte estratégica e tomam decisões macro. Precisam de painéis visuais para gerenciar recursos, planejar turmas de reforço e direcionar investimentos. Têm boa familiaridade com tecnologia.
+* *Corpo Docente (Professores):* Usuários do dia a dia na sala de aula. Utilizam os alertas do sistema para identificar alunos que precisam de atenção e evitar a queda de desempenho. O nível de facilidade com ferramentas digitais varia bastante entre eles.
+* *Equipe de Apoio (Orientadores e Psicólogos):* Focam no acolhimento e no suporte direto. Usam os dados socioeconômicos e de comportamento para planejar conversas e atendimentos focados com os estudantes e suas famílias.
 
-### 2. Mapa de Stakeholders
+---
 
-| Baixa Influência / Alto Interesse (Manter Informados) | Alta Influência / Alto Interesse (Gerenciar de Perto) |
-| :--- | :--- |
-| <ul><li>Alunos</li><li>Pais e Responsáveis</li></ul> | <ul><li>Coordenadores Pedagógicos</li><li>Diretores Escolares</li><li>Professores (Corpo Docente)</li></ul> |
-| *Baixa Influência / Baixo Interesse (Monitorar)* | *Alta Influência / Baixo Interesse (Manter Satisfeitos)* |
-| <ul><li>Comunidade Escolar Geral</li><li>Provedores de Dados (Kaggle)</li></ul> | <ul><li>Equipe Técnica / TI da Escola</li><li>Secretarias de Educação</li></ul> |
+## 2. Mapa de Stakeholders
 
-#### Descrição dos Quadrantes:
-* *Gerenciar de Perto:* Público-alvo direto que operará o sistema e tomará decisões com base nas notas preditas.
-* *Manter Satisfeitos:* Equipe com poder técnico/institucional para homologar e liberar a infraestrutura.
-* *Manter Informados:* Os maiores beneficiados pelas ações preventivas da escola.
-* *Monitorar:* Acompanham o projeto de forma passiva.
+### Alta Influência / Alto Interesse (Gerenciar de perto)
+* Coordenadores Pedagógicos
+* Diretores Escolares
+* Professores (Corpo Docente)
 
-### 3. Diagrama de Persona
-* *Nome fictício:* Cláudia Silva, 42 anos.
-* *Cargo:* Coordenadora Pedagógica.
-* *Relação com a Tecnologia:* Familiaridade intermediária; prefere gráficos diretos a bases brutas.
-* *Desafio:* Identificar rapidamente
+### Baixa Influência / Alto Interesse (Manter informados)
+* Alunos
+* Pais e Responsáveis
+
+### Alta Influência / Baixo Interesse (Manter satisfeitos)
+* Equipe Técnica / TI da Escola
+* Secretarias de Educação
+
+### Baixa Influência / Baixo Interesse (Monitorar)
+* Comunidade Escolar Geral
+* Provedores de Dados (Kaggle)
+
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
