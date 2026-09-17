@@ -110,7 +110,7 @@ específicos ou as razões para aprofundar em certos aspectos do software.
 
 ## 1. Perfis de Usuários
 
-* *Gestores Escolaares (Diretores e Coordenadores):* Focam na parte estratégica e tomam decisões macro. Precisam de painéis visuais para gerenciar recursos, planejar turmas de reforço e direcionar investimentos. Têm boa familiaridade com tecnologia.
+* *Gestores Escolaares (Diretores e Coordenadores):* Focam na parte estratégica e tomam decisões importantes. Precisam de painéis visuais para gerenciar recursos, planejar turmas de reforço e direcionar investimentos. Têm boa familiaridade com tecnologia.
 * *Corpo Docente (Professores):* Usuários do dia a dia na sala de aula. Utilizam os alertas do sistema para identificar alunos que precisam de atenção e evitar a queda de desempenho. O nível de facilidade com ferramentas digitais varia bastante entre eles.
 * *Equipe de Apoio (Orientadores e Psicólogos):* Focam no acolhimento e no suporte direto. Usam os dados socioeconômicos e de comportamento para planejar conversas e atendimentos focados com os estudantes e suas famílias.
 
