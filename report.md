@@ -109,15 +109,33 @@ específicos ou as razões para aprofundar em certos aspectos do software.
 
 
 ##    Público alvo
+* Gestores Escolares (Diretores e Coordenadores): Usuários de nível estratégico e decisão hierárquica alta. Possuem familiaridade intermediária com tecnologia e utilizam painéis visuais para fundamentar decisões macro, planejar turmas de reforço e direcionar recursos.
+* Corpo Docente (Professores): Usuários operacionais na linha de frente da sala de aula. Possuem literacia digital variável e rotinas dinâmicas. Utilizam os insights rápidos do sistema para antecipar quedas de desempenho e apoiar sua autonomia pedagógica.
+* Equipe de Apoio (Orientadores e Psicólogos): Usuários de articulação mediadora. Utilizam os dados socioeconômicos e comportamentais para realizar intervenções psicossociais humanizadas com alunos e famílias.
+### 1. Perfis de Usuários
+* *Gestores Escolares:* Tomam decisões estratégicas de alocação de recursos com base em dashboards visuais.
+* *Corpo Docente:* Utiliza insights rápidos na linha de frente para antecipar quedas de desempenho.
+* *Equipe de Apoio:* Analisa dados socioeconômicos para realizar abordagens psicossociais humanizadas.
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. 
-O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários 
-na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos 
-usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+### 2. Mapa de Stakeholders
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, 
-diagramas de personas e mapa de stakeholders.
+| Baixa Influência / Alto Interesse (Manter Informados) | Alta Influência / Alto Interesse (Gerenciar de Perto) |
+| :--- | :--- |
+| <ul><li>Alunos</li><li>Pais e Responsáveis</li></ul> | <ul><li>Coordenadores Pedagógicos</li><li>Diretores Escolares</li><li>Professores (Corpo Docente)</li></ul> |
+| *Baixa Influência / Baixo Interesse (Monitorar)* | *Alta Influência / Baixo Interesse (Manter Satisfeitos)* |
+| <ul><li>Comunidade Escolar Geral</li><li>Provedores de Dados (Kaggle)</li></ul> | <ul><li>Equipe Técnica / TI da Escola</li><li>Secretarias de Educação</li></ul> |
+
+#### Descrição dos Quadrantes:
+* *Gerenciar de Perto:* Público-alvo direto que operará o sistema e tomará decisões com base nas notas preditas.
+* *Manter Satisfeitos:* Equipe com poder técnico/institucional para homologar e liberar a infraestrutura.
+* *Manter Informados:* Os maiores beneficiados pelas ações preventivas da escola.
+* *Monitorar:* Acompanham o projeto de forma passiva.
+
+### 3. Diagrama de Persona
+* *Nome fictício:* Cláudia Silva, 42 anos.
+* *Cargo:* Coordenadora Pedagógica.
+* *Relação com a Tecnologia:* Familiaridade intermediária; prefere gráficos diretos a bases brutas.
+* *Desafio:* Identificar rapidamente
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
