@@ -1,88 +1,54 @@
-ANÁLISE PREDITIVA E FATORES DETERMINANTES NO DESEMPENHO ESCOLAR
+# SISTEMA INTELIGENTE PARA PREDIÇÃO DO DESEMPENHO ESTUDANTIL A PARTIR DE FATORES ACADÊMICOS, SOCIOECONÔMICOS E COMPORTAMENTAIS
 
+**Daví Duarte, 1659455@pucminas.edu.br**
 
-Letícia Soares de Paiva Lacerda, 1451552@pucminas.edu.br	
+**Laura de Castro e Costa, 1674113@pucminas.edu.br**
 
-Laura de Castro e Costa, 1674113@pucminas.edu.br	
+**Guilherme Maurício de Souza Neves, 721950@pucminas.edu.br**
 
-Leonardo Rodrigos dos Anjos Correa, 1412021@pucminas.edu.br
+**Leticia Soares de Paiva Lacerda, leticia.lacerda.1451552@sga.pucminas.br**
 
-Guilherme Maurício de Souza Neves, 721950@pucminas.edu.br
+**Leonardo Rodrigues dos Anjos Correa, 1412021@pucminas.edu.br**
 
-Daví Duarte, 1659455@pucminas.edu.br
 
 ---
 
 Professores:
 
-Gabriel Barbosa da Fonseca
+**Gabriel Barbosa da Fonseca**
 
 ---
 
-_Curso de Ciência de Dados, Unidade Praça da Liberdade_
+_Curso de Ciência de Dados, Unidade Lourdes_
 
 _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Minas Gerais (PUC MINAS), Belo Horizonte – MG – Brasil_
 
 ---
 
-_**Resumo**. 
-
-O objetivo é mensurar o impacto estatístico dos hábitos de estudo, frequência escolar e suporte socioeconômico sobre a nota final.
-A metodologia consiste no desenvolvimento de um pipeline robusto de Machine Learning em Python, utilizando algoritmos. Os resultados
-demonstram que a frequência escolar e a rotina de estudos são os preditores de maior peso direto, enquanto o fator socioeconômico atua
-como base catalisadora do rendimento. Além disso, os dados permitem converter os dados brutos em inteligência pedagógica, fornecendo
-aos gestores educacionais uma ferramente preditiva eficaz para intervenções preventivas contra o fracasso escola.
-
+**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 ---
 
-
 ## Introdução
 
-		O cenário educacional enfrenta o desafio crônico de reverter o baixo rendimento acadêmico de forma proativa. Nesse sentido, as
-	instituições de ensino identificam as lacunas de aprendizados dos alunos só após a divulgação daa notas finais. Diante disso, o uso
-	da Ciências de dados surge como uma estratégia indispensável para transformar registros escolares em diagnósticos antecipados.
-		No entanto, mensurar com precisão o peso real de fatores comportamentais e sociais sobre a nota do estudante é um desafio complexo.
-	Variáveis como,(colocar depois) intereagem entre si e exige uma análise estatística rigorosa para identificar quais dessa dimensões 
-	realmente ditam o sucesso ou o fracasso acadêmico.
-		Este trabalho tem como objetivo desenvolver um pipeline de Machine Learning capar de prever o desempenho dos estudantes e mapear
-	a relevância de cada fator determinate. Utilizando técnicas de pré-processamento automatizado e modelagem preditiva, o projeto busca
-	converter dados brutos em inteligência pedagógica fornecendo uma ferramenta prática para decisões preventivas na gestão escolar.`
-		
-	
-
-
+O desempenho acadêmico é um dos principais indicadores de qualidade da educação e está associado a trajetórias de trabalho, renda e cidadania. Contudo, a aprendizagem não depende apenas do tempo em sala de aula: hábitos de estudo, frequência, envolvimento familiar, condições socioeconômicas e características da escola se combinam de forma complexa. Este trabalho se insere nesse debate a partir da Ciência de Dados, com o propósito de transformar registros estudantis em evidências interpretáveis para apoiar decisões pedagógicas.
+Utiliza-se a base Student Performance Factors, publicada no Kaggle, com 6.607 registros e 20 atributos sobre rotina de estudo, frequência, recursos educacionais, renda familiar, qualidade docente e nota final de exame. A pergunta que orienta o projeto é: quais fatores individuais, familiares e escolares, registrados nessa base, melhor explicam e predizem a nota de exame dos estudantes? A resposta será buscada por meio da preparação dos dados, da modelagem com ao menos dois algoritmos de aprendizado e da análise comparativa dos resultados.
 
 ###    Contextualização
 
-Na **contextualização**, o aluno deve dizer do que se trata o trabalho, em que área ou contexto se insere. 
-A **contextualização** deve ser desenvolvida de algo mais genérico para algo mais específico. 
-A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenciadas).
+A Agenda 2030 da Organização das Nações Unidas reconhece a educação de qualidade, inclusiva e equitativa como objetivo de desenvolvimento sustentável, o ODS 4. Na prática, esse compromisso se traduz em um desafio mensurável: garantir não apenas o acesso à escola, mas a aprendizagem efetiva. O desempenho em avaliações passou, portanto, a ser lido como síntese de múltiplos fatores — individuais, familiares e institucionais — e não como um atributo isolado do estudante.
+O conjunto descreve, para cada estudante, variáveis numéricas (horas de estudo semanais, percentual de frequência, horas de sono, notas anteriores, sessões de tutoria, atividade física) e categóricas (envolvimento parental, acesso a recursos, motivação, acesso à internet, renda familiar, qualidade docente, tipo de escola, influência dos pares, deficiência de aprendizagem, escolaridade dos pais, distância casa-escola e gênero), tendo como variável-alvo a nota final de exame.
 
 ###    Problema
 
-Nesse momento você deve apresentar o problema que seu agente pretende resolver. 
-No entanto, não é a hora de comentar sobre a aplicação.
-Descreva também o contexto em que essa aplicação será usada, se  houver: 
-empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, 
-pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-O **problema** pode ser algo vivido em uma empresa específica. Neste caso, o aluno deve 
-sucintamente apresentar o cenário de problema da empresa. A empresa só deve ser citada 
-explicitamente se o aluno tiver autorização para tal.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+O problema abordado é a dificuldade de identificar, de modo sistemático e quantitativo, quais fatores mais se associam à nota de exame de um estudante quando várias dimensões atuam ao mesmo tempo. Na rotina escolar, decisões de reforço, recuperação e acompanhamento costumam apoiar-se em indicadores isolados — nota anterior, faltas ou percepção do professor — sem um modelo que articule hábitos de estudo, contexto familiar e características da escola.
+Essa lacuna tem consequências práticas. Intervenções genéricas (por exemplo, aumentar o volume de conteúdo para toda a turma) podem ignorar que parte da variação do desempenho esteja ligada à frequência, à ausência de tutoria, à baixa motivação ou à falta de recursos em casa. Sem uma leitura multivariada, gestores e professores tendem a tratar sintomas (a nota baixa) sem distinguir causas mais próximas, como horas de estudo e assiduidade, de restrições estruturais, como renda familiar e qualidade docente.
+O contexto de uso pretendido é o de apoio à decisão pedagógica e educacional, e não o de substituição do julgamento docente. A base escolhida não é um censo brasileiro: trata-se de um conjunto público, delimitado e já estruturado, com cerca de 6,6 mil registros. O problema, portanto, não é “melhorar a educação nacional” de forma abstrata; é estimar a nota de exame e ranquear os fatores associados a ela, a partir dos atributos disponíveis, de modo que as evidências possam informar políticas de frequência, tutoria e acompanhamento em ambientes escolares semelhantes.
 
 ###    Objetivo geral
 
-Nesta seção deve-se escrever um pequeno parágrafo ou frase com o **objetivo geral** 
-do trabalho. O objetivo deve ser bem direto, específico e definido com verbos de 
-ação (elaborar, propor, avaliar, comparar etc.). No caso deste projeto, o objetivo é
-"desenvolver um sistema inteligente para ...". O seu objetivo geral deve ser uma
-pergunta orientada a dados. Ou seja, ela deve incluir de forma geral os dados em que
-os modelos irão se basear para atingir o objetivo.
+Desenvolver um sistema inteligente capaz de prever a nota final de exame de estudantes a partir dos atributos acadêmicos, socioeconômicos e comportamentais da base Student Performance Factors, identificando quais fatores melhor explicam o desempenho.
+Em formulação de pergunta orientada a dados: quais variáveis individuais, familiares e escolares da base Student Performance Factors melhor predizem a nota de exame, e com que grau de acerto dois algoritmos de aprendizado distintos conseguem estimar esse resultado?
 
 ####    Objetivos específicos
 
@@ -96,17 +62,11 @@ no seu trabalho.
 
 ###    Justificativas
 
-Mostre também as **justificativas** para o  desenvolvimento do seu trabalho e, caso deseje, 
-destaque alguma contribuição do trabalho.
+A primeira justificativa é social e educacional. Um sistema que ajude a antecipar notas e a evidenciar fatores associados ao resultado pode apoiar ações mais precoces de frequência, reforço e tutoria, em linha com o ODS 4.
+A segunda justificativa é de contribuição. O trabalho não pretende criar uma política pública nacional a partir de dados do Kaggle. A contribuição esperada é um pipeline reproduzível de Ciência de Dados aplicado a desempenho estudantil, com diagnóstico dos fatores mais associados à nota e com discussão honesta das limitações.
 
-A justific ativa deve descrever a importância ou a motivação para o desenvolvimento do 
-sistema inteligente escolhido. Indique as razões pelas quais você escolheu seus objetivos 
-específicos ou as razões para aprofundar em certos aspectos do software.
+##    Público alvo
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
-# Público-alvo
 
 ## 1. Perfis de Usuários
 
@@ -134,13 +94,6 @@ específicos ou as razões para aprofundar em certos aspectos do software.
 ### Baixa Influência / Baixo Interesse (Monitorar)
 * Comunidade Escolar Geral
 * Provedores de Dados (Kaggle)
-
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
 
 
 ## Análise exploratórida dos dados
